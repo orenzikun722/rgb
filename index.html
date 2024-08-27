@@ -8,9 +8,18 @@
   <body>
     <center>
       <form>
-        <input id="R_range" name="Rrange" type="range" min="0" max="100" value="0" oninput="this.form.Rinput.value=this.value">
-        <input id="R_input" name="Rinput" type="number" min="0" max="100" value="0" oninput="this.form.Rrange.value=this.value">
+        <input id="R_range" name="Rrange" type="range" min="0" max="255" value="0" oninput="this.form.Rinput.value=this.value">
+        <input id="R_input" name="Rinput" type="number" min="0" max="255" value="0" oninput="this.form.Rrange.value=this.value">
       </form>
+      <form>
+        <input id="G_range" name="Grange" type="range" min="0" max="255" value="0" oninput="this.form.Ginput.value=this.value">
+        <input id="G_input" name="Ginput" type="number" min="0" max="255" value="0" oninput="this.form.Grange.value=this.value">
+      </form>
+      <form>
+        <input id="B_range" name="Rrange" type="range" min="0" max="255" value="0" oninput="this.form.Binput.value=this.value">
+        <input id="B_input" name="Rinput" type="number" min="0" max="255" value="0" oninput="this.form.Brange.value=this.value">
+      </form>
+      <input id="RGB_input" >
     </center>
     <script src="script.js"></script>
   </body>
